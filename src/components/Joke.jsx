@@ -9,7 +9,6 @@ fetch(URL)
     .then((response) => response.json())
     .then((data) => {
         setJoke(data);
-        console.log(data);
     });
 }, []);
 
